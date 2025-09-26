@@ -78,7 +78,7 @@ La web principal está construida con **Bootstrap 5.3**, soporta **modo claro/os
 - 📧 **Zona privada DAW2:** [Acceso restringido](https://intranet.alixar/DAW2)  
 - 🧾 **Padlet:** [Tablón visual](https://padlet.com/tu_padlet)  
 - 🎥 **YouTube:** [Canal oficial](https://www.youtube.com/@TuCanal)  
-- 💼 **LinkedIn:** [Página de la comunidad](https://www.linkedin.com/company/tu-enlace)  
+- 💼 **LinkedIn:** [Página de la comunidad](https://www.linkedin.com/company/alixarcoders)  
 
 ---
 
