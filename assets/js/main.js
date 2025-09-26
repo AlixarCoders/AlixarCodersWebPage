@@ -46,7 +46,6 @@
   });
 
   window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('year').textContent = new Date().getFullYear();
 
     const activeTheme = getPreferredTheme();
     document.querySelectorAll('[data-bs-theme-value]').forEach(btn => {
