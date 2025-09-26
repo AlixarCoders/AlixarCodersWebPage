@@ -1,0 +1,62 @@
+/* Fuente global: Fira Code */
+body, button, input, select, textarea, code, pre, kbd, samp {
+  font-family: "Fira Code", monospace;
+}
+
+/* Paleta actual (hex + rgb para rgba()) */
+:root{
+  --ac-blue:   #38b6ff;  /* rgb(56,182,255)   */
+  --ac-blue-rgb:   56,182,255;
+
+  --ac-yellow: #ffde59;  /* rgb(255,222,89)   */
+  --ac-yellow-rgb: 255,222,89;
+
+  --ac-violet: #cb6ce6;  /* rgb(203,108,230)  */
+  --ac-violet-rgb: 203,108,230;
+}
+
+/* Ajusta el logo al alto de la cabecera */
+.logo-navbar {
+  height: 2rem; /* se adapta al alto típico de la navbar */
+  width: auto;  /* mantiene proporción */
+  display: inline-block;
+}
+
+/* Colores para el lema */
+.brand-text {
+  white-space: nowrap; /* evita que se divida en dos líneas */
+}
+.text-ac-blue   { color: var(--ac-blue) !important; }
+.text-ac-violet { color: var(--ac-violet) !important; }
+
+/* Utilidades de marca */
+.text-accent { color: var(--ac-yellow) !important; }
+.bg-accent   { background-color: var(--ac-yellow) !important; }
+
+/* Hero con ligero gradiente adaptable al tema Bootstrap 5.3 */
+[data-bs-theme="dark"]  .bg-gradient-hero{ background: radial-gradient(800px 400px at 10% -20%, rgba(var(--ac-blue-rgb), .15),  transparent 60%); }
+[data-bs-theme="light"] .bg-gradient-hero{ background: radial-gradient(800px 400px at 10% -20%, rgba(var(--ac-yellow-rgb), .15), transparent 60%); }
+
+/* Botones principales ajustados a la marca */
+.btn-primary{
+  background-color: var(--ac-blue);
+  border-color: var(--ac-blue);
+}
+.btn-primary:hover{ filter: brightness(.95); }
+.btn-outline-primary{
+  color: var(--ac-blue);
+  border-color: var(--ac-blue);
+}
+.btn-outline-primary:hover{
+  background-color: var(--ac-blue);
+  color: #0b0f19; /* contraste en hover */
+}
+
+/* Tarjetas: bordes sutiles en oscuro */
+[data-bs-theme="dark"] .card{ border-color: rgba(255,255,255,.08); }
+
+/* Accesibilidad: foco visible */
+.btn:focus, .nav-link:focus, .dropdown-item:focus{
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(var(--ac-yellow-rgb), .35);
+}
