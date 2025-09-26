@@ -85,6 +85,4 @@ La web principal está construida con **Bootstrap 5.3**, soporta **modo claro/os
 ## 🛠️ Créditos
 
 Desarrollado por el **Departamento de Informática del I.E.S. ALIXAR**.  
-© 2024–2025 AlixarCoders. Todos los derechos reservados.
-
 ---
