@@ -52,9 +52,6 @@ body, button, input, select, textarea, code, pre, kbd, samp {
   color: #0b0f19; /* contraste en hover */
 }
 
-/* Tarjetas: bordes sutiles en oscuro */
-[data-bs-theme="dark"] .card{ border-color: rgba(255,255,255,.08); }
-
 /* Accesibilidad: foco visible */
 .btn:focus, .nav-link:focus, .dropdown-item:focus{
   outline: 0;

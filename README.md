@@ -1,9 +1,11 @@
 # 🌐 AlixarCoders — Comunidad de Desarrolladores Web del [I.E.S. ALIXAR](https://iesalixar.org)
 
 ![Logo](assets/images/logo/logo.svg)
+![Unicornio](assets/images/logo/unicornio.png)
 
-Bienvenido al repositorio oficial de **AlixarCoders**, la comunidad de Desarrolladores Web del **I.E.S. ALIXAR**.  
+Bienvenido al repositorio oficial de **AlixarCoders**, la comunidad de Desarrolladores Web del **I.E.S. ALIXAR**. 
 Este proyecto reúne recursos, proyectos y buenas prácticas para aprender, construir y desplegar aplicaciones web de calidad.
+¡Somos Unicornios! ¡SOMOS FULL STACK WEB DEVELOPERS!
 
 ---
 
@@ -75,9 +77,9 @@ La web principal está construida con **Bootstrap 5.3**, soporta **modo claro/os
 
 ## 👥 Comunidad
 
-- 📧 **Zona privada DAW2:** [Acceso restringido](https://intranet.alixar/DAW2)  
+- 📧 **Zona privada DAW2:** [Acceso restringido](https://sites.google.com/g.educaand.es/alixarcoders)  
 - 🧾 **Padlet:** [Tablón visual](https://padlet.com/tu_padlet)  
-- 🎥 **YouTube:** [Canal oficial](https://www.youtube.com/@TuCanal)  
+- 🎥 **YouTube:** [Canal oficial](https://www.youtube.com/@alixarcoders)  
 - 💼 **LinkedIn:** [Página de la comunidad](https://www.linkedin.com/company/alixarcoders)  
 
 ---

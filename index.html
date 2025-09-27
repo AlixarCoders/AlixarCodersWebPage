@@ -61,7 +61,7 @@
 
                 <!-- YouTube -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#recursos">
+                    <a class="nav-link" href="https://www.youtube.com/@alixarcoders">
                         <i class="bi bi-youtube me-1"></i>YouTube
                     </a>
                 </li>
@@ -69,14 +69,14 @@
                 <!-- Repositorios (GitHub) -->
                 <li class="nav-item">
                     <a class="nav-link" href="https://github.com/AlixarCoders" target="_blank" rel="noopener">
-                        <i class="bi bi-github me-1"></i>Repositorios
+                        <i class="bi bi-github me-1"></i>Github
                     </a>
                 </li>
 
                 <!-- Zona privada DAW2 -->
                 <li class="nav-item">
-                    <a class="nav-link" href="https://intranet.alixar/DAW2" target="_blank" rel="noopener">
-                        <i class="bi bi-lock-fill me-1"></i>Zona DAW2
+                    <a class="nav-link" href="https://sites.google.com/g.educaand.es/alixarcoders" target="_blank" rel="noopener">
+                        <i class="bi bi-lock-fill me-1"></i>Zona DAW
                     </a>
                 </li>
 
@@ -113,58 +113,102 @@
   <!-- Hero -->
   <header class="py-5 bg-gradient-hero border-bottom">
     <div class="container py-4">
-      <div class="row align-items-center g-4">
+        <div class="row align-items-center g-4">
         <div class="col-lg-7">
             <span class="badge rounded-pill bg-accent text-dark fw-semibold mb-3">
-                Backend · Frontend · DevOps · Sec
+            Backend · Frontend · DevOps · Sec
             </span>
 
             <h1 class="display-5 fw-bold mb-2">
-                Comunidad de Desarrolladores Web del I.E.S. ALIXAR
+            Comunidad de Desarrolladores Web del I.E.S. ALIXAR
             </h1>
 
             <p class="lead fw-semibold text-primary mb-3">
-                Aprende, construye y despliega con <span class="text-accent">AlixarCoders</span>
+            Aprende, construye y despliega con <span class="text-accent">AlixarCoders</span>
             </p>
 
             <p class="lead text-body-secondary mb-4">
-                Repositorio central de la comunidad: cheatsheets, proyectos, estándares, eventos y enlaces a nuestros espacios (Github, LinkedIn, YouTube, Padlet,...).
+            Repositorio central de la comunidad: cheatsheets, proyectos, estándares, eventos y enlaces a nuestros espacios (Github, LinkedIn, YouTube, Padlet,...).
             </p>
 
             <div class="d-flex flex-wrap gap-2">
-                <a class="btn btn-primary btn-lg" href="#proyectos">
-                <i class="bi bi-github me-1"></i> Repositorios
-                </a>
-                <a class="btn btn-outline-primary btn-lg" href="https://www.linkedin.com/company/alixarcoders" target="_blank" rel="noopener">
-                <i class="bi bi-linkedin me-1"></i> Únete a nuestro LinkedIn
-                </a>
+            <a class="btn btn-primary btn-lg" href="#proyectos">
+                <i class="bi bi-github me-1"></i> Github
+            </a>
+            <a class="btn btn-outline-primary btn-lg" href="https://www.linkedin.com/company/alixarcoders" target="_blank" rel="noopener">
+                <i class="bi bi-linkedin me-1"></i> Comunidad de Unicornios
+            </a>
             </div>
+
+            <p class="lead fw-bold mt-4">
+                <span class="text-accent">¡</span>
+                <span class="text-ac-blue">Somos</span>
+                <span class="text-ac-violet">Unicornios</span>
+                <span class="text-accent">!</span>
+                <br>
+                <span class="text-accent">¡</span>
+                <span class="text-ac-violet">SOMOS</span>
+                <span class="text-ac-violet">FULL STACK</span>
+                <span class="text-ac-blue">WEB DEVELOPERS</span>
+                <span class="text-accent">!</span>
+            </p>
+
+            <!-- Nube de tags (compacta en el header) -->
+            <div class="mt-4">
+            <div class="text-body-secondary small mb-2">Nuestro stack tecnológico</div>
+            <div class="d-flex flex-wrap gap-2">
+                <!-- Capa 1 — Lenguajes -->
+                <span class="badge rounded-pill bg-primary">Java</span>
+                <span class="badge rounded-pill bg-primary">JavaScript</span>
+                <span class="badge rounded-pill bg-primary">TypeScript</span>
+                <span class="badge rounded-pill bg-primary">Python</span>
+                <span class="badge rounded-pill bg-primary">PHP</span>
+
+                <!-- Capa 2 — Backend -->
+                <span class="badge rounded-pill bg-secondary">Spring Boot</span>
+                <span class="badge rounded-pill bg-secondary">Symfony</span>
+                <span class="badge rounded-pill bg-secondary">Django</span>
+                <span class="badge rounded-pill bg-secondary">ExpressJS</span>
+
+                <!-- Capa 3 — Frontend -->
+                <span class="badge rounded-pill bg-info text-dark">Angular</span>
+                <span class="badge rounded-pill bg-info text-dark">React</span>
+
+                <!-- Capa 4 — Estilos/UI -->
+                <span class="badge rounded-pill bg-warning text-dark">Bootstrap</span>
+                <span class="badge rounded-pill bg-warning text-dark">Tailwind CSS</span>
+                <span class="badge rounded-pill bg-warning text-dark">SASS</span>
+
+                <!-- Capa 5 — BBDD -->
+                <span class="badge rounded-pill bg-success">MongoDB</span>
+                <span class="badge rounded-pill bg-success">MariaDB</span>
+
+                <!-- Capa 6 — DevOps -->
+                <span class="badge rounded-pill bg-dark">Git</span>
+                <span class="badge rounded-pill bg-dark">Jenkins</span>
+                <span class="badge rounded-pill bg-dark">Docker</span>
+                <span class="badge rounded-pill bg-dark">Kubernetes</span>
+
+                <!-- Capa 7 — Diseño/UX -->
+                <span class="badge rounded-pill bg-danger">Figma</span>
+            </div>
+            </div>
+            <!-- /Nube de tags -->
         </div>
 
         <div class="col-lg-5">
-          <div class="card shadow-sm code-card">
-            <div class="card-body">
-<pre class="mb-0"><code class="language-java">// Demo: endpoint de salud con test
-@RestController
-class HealthController {
-  @GetMapping("/health") String ok() { return "ok"; }
-}
-
-@WebMvcTest(HealthController.class)
-class HealthControllerTest {
-  @Autowired MockMvc mvc;
-  @Test void health_returns_ok() throws Exception {
-    mvc.perform(get("/health")).andExpect(status().isOk())
-       .andExpect(content().string("ok"));
-  }
-}
-</code></pre>
+            <div class="card shadow-sm overflow-hidden">
+            <div class="ratio ratio-4x3">
+                <img src="assets/images/logo/unicornio.png"
+                    alt="AlixarCoders unicornio"
+                    class="w-100 h-100 object-fit-contain">
             </div>
-          </div>
+            </div>
         </div>
-      </div>
+        </div>
     </div>
-  </header>
+    </header>
+
 
 
   <!-- Recursos -->
