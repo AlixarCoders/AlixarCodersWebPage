@@ -78,7 +78,7 @@ La web principal está construida con **Bootstrap 5.3**, soporta **modo claro/os
 ## 👥 Comunidad
 
 - 📧 **Zona privada DAW2:** [Acceso restringido](https://sites.google.com/g.educaand.es/alixarcoders)  
-- 🧾 **Padlet:** [Tablón visual](https://padlet.com/tu_padlet)  
+- 🧾 **Padlet:** [Tablón visual](https://padlet.com/profeantoniogabriel/alixarcoders)  
 - 🎥 **YouTube:** [Canal oficial](https://www.youtube.com/@alixarcoders)  
 - 💼 **LinkedIn:** [Página de la comunidad](https://www.linkedin.com/company/alixarcoders)  
 
